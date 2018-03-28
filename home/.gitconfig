@@ -1,0 +1,19 @@
+[user]
+	name = jnpr-rtulsian
+	email = rtulsian@juniper.net
+[core]
+	editor = vi
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit -m
+	b = branch
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ca = commit -a -m
+	s = status
+	d = diff --stat
+	p = push -u
+	pu = pull origin master
+[push]
+	default = current
