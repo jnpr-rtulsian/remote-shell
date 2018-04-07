@@ -96,4 +96,4 @@ source $ZSH/oh-my-zsh.sh
 # redefine prompt_context for hiding user@hostname
 prompt_context () { }
 
-stty -ixon
+source ~/shortcuts.sh
