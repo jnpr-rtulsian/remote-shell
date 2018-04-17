@@ -1,5 +1,5 @@
 export CONTRAIL=$HOME/contrail
-export LD_LIBRARY_PATH=$CONTRAIL/build/lib
+export LD_LIBRARY_PATH=$CONTRAIL/build/lib:$LD_LIBRARY_PATH
 
 alias mymux='tmux attach -t rishabh || tmux new -s rishabh'
 alias ff='find . -name '

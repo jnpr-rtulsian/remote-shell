@@ -13,7 +13,3 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ln -s ${DIR}/home/.gitconfig ~/.gitconfig
 ln -s ${DIR}/home/.tmux.conf ~/.tmux.conf
 
-distro=$(cat /etc/*release | egrep '^ID=' | awk -F= '{print $2}' | tr -d \")
-if [ x"$distro" == x"centos" ]; then
-  ./install-tmux.sh
-fi
